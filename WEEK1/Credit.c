@@ -15,6 +15,7 @@ int main(void)
     int somaDigitosRemanes = 0;
     int produtoAlternado = 0;
     int checkNumber = 0;
+    int checkSum;
     for (size_t i = 0; i < length; i++)
     {
         int digit = cardStr[i] - '0';
@@ -35,18 +36,25 @@ int main(void)
             somaDigitosRemanes += digit;
         }
     }
-    int checkSum = somaDigitosRemanes + checkNumber;
-    if (checkSum % 10 == 0 && firstDigit == 4)
-    {
-        printf("VISA\n");
-    }
-    else if (twoDigits == 34 || twoDigits == 37)
-    {
-        printf("AMEX\n");
-    }
-    else if (twoDigits >= 51 && twoDigits <= 55)
-    {
-        printf("MASTER\n");
+    checkSum = somaDigitosRemanes + checkNumber;
+       if (checkSum % 10 == 0)
+       {
+        if (firstDigit == 4)
+        {
+            printf("VISA\n");
+        }
+        else if (twoDigits == 34 || twoDigits == 37)
+        {
+            printf("AMEX\n");
+        }
+        else if (twoDigits >= 51 && twoDigits <= 55)
+        {
+            printf("MASTER\n");
+        }
+        else
+        {
+            printf("INVALID\n");
+        }
     }
     else
     {
