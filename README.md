@@ -9,6 +9,6 @@ O repositório está organizado por semanas, cada uma correspondendo a uma seman
 ## WEEK / EXERCICIOS
 <ul>
   <li>
-    <span>WEEK 1 </span>
+    <a href="https://github.com/VNNiH/CC50-Harvard/tree/main/WEEK1" ><span> WEEK 1 </span> </a>
   </li>
 </ul>
