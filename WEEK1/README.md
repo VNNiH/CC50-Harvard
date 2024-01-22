@@ -12,3 +12,7 @@ O código pode ser encontrado em
 O código pode ser encontrado em 
   <a href="https://github.com/VNNiH/CC50-Harvard/blob/main/WEEK1/Cash.c">Cash</a>
 </p>
+<h3>Credit</h3>
+<p>Este é um programa simples em C que utiliza o algoritmo de Luhn para validar números de cartão de crédito. O programa permite que o usuário insira um número de cartão de crédito e, em seguida, verifica se o número é válido e identifica o tipo de cartão (VISA, AMEX ou MASTERCARD).
+O código pode ser encontrado em 
+  <a href="https://github.com/VNNiH/CC50-Harvard/blob/main/WEEK1/Credit.c">Credit</a></p>
