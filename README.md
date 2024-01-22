@@ -1,4 +1,4 @@
-# CS50 Harvard - Resoluções Semanais
+# CC50 Harvard - Resoluções Semanais
 
 Este repositório contém as resoluções dos exercícios propostos semana a semana no curso CS50 de Harvard.
 
