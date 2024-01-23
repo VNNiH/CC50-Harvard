@@ -1,4 +1,4 @@
-# Semana 1: Exercícios de Harvard CS50
+# Semana 1: Exercícios de Harvard CC50
 
 <h3>Escada do Mario (Versão Fácil)</h3>
 
